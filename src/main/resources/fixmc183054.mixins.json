@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.hikoma0000.fixmc183054.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MixinEndermanLeaveBlockGoal"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

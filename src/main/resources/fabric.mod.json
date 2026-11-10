@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "fixmc183054",
+  "version": "${version}",
+  "name": "FixMC183054",
+  "description": "Fixes MC-183054",
+  "authors": [
+    "hikoma0000"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "fixmc183054.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "1.17.1",
+    "java": ">=16"
+  }
+}
